@@ -1,10 +1,8 @@
-info fsevents@1.2.4: The platform "linux" is incompatible with this module.
-info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
 THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE CONTAINED IN PORTIONS OF THE KOA NUNJUCKS ASYNC PRODUCT.
 
 -----
 
-The following software may be included in this product: @babel/code-frame, @babel/highlight, @babel/polyfill. A copy of the source code may be downloaded from https://github.com/babel/babel/tree/master/packages/babel-code-frame (@babel/code-frame), https://github.com/babel/babel/tree/master/packages/babel-highlight (@babel/highlight), https://github.com/babel/babel/tree/master/packages/babel-polyfill (@babel/polyfill). This software contains the following license and notice below:
+The following software may be included in this product: @babel/code-frame, @babel/highlight. A copy of the source code may be downloaded from https://github.com/babel/babel/tree/master/packages/babel-code-frame (@babel/code-frame), https://github.com/babel/babel/tree/master/packages/babel-highlight (@babel/highlight). This software contains the following license and notice below:
 
 MIT License
 
@@ -414,32 +412,6 @@ THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: arr-diff, array-unique, extend-shallow, is-extglob, is-glob, is-number, is-primitive, micromatch, write. A copy of the source code may be downloaded from https://github.com/jonschlinkert/arr-diff.git (arr-diff), git://github.com/jonschlinkert/array-unique.git (array-unique), https://github.com/jonschlinkert/extend-shallow.git (extend-shallow), https://github.com/jonschlinkert/is-extglob.git (is-extglob), https://github.com/jonschlinkert/is-glob.git (is-glob), https://github.com/jonschlinkert/is-number.git (is-number), git://github.com/jonschlinkert/is-primitive.git (is-primitive), https://github.com/jonschlinkert/micromatch.git (micromatch), https://github.com/jonschlinkert/write.git (write). This software contains the following license and notice below:
-
-The MIT License (MIT)
-
-Copyright (c) 2014-2015, Jon Schlinkert.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
------
-
 The following software may be included in this product: arr-diff, fill-range, for-in, has-value, has-values, kind-of, normalize-path, set-value. A copy of the source code may be downloaded from https://github.com/jonschlinkert/arr-diff.git (arr-diff), https://github.com/jonschlinkert/fill-range.git (fill-range), https://github.com/jonschlinkert/for-in.git (for-in), https://github.com/jonschlinkert/has-value.git (has-value), https://github.com/jonschlinkert/has-values.git (has-values), https://github.com/jonschlinkert/kind-of.git (kind-of), https://github.com/jonschlinkert/normalize-path.git (normalize-path), https://github.com/jonschlinkert/set-value.git (set-value). This software contains the following license and notice below:
 
 The MIT License (MIT)
@@ -466,7 +438,33 @@ THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: arr-flatten, is-glob, is-number, is-plain-object, kind-of. A copy of the source code may be downloaded from https://github.com/jonschlinkert/arr-flatten.git (arr-flatten), https://github.com/jonschlinkert/is-glob.git (is-glob), https://github.com/jonschlinkert/is-number.git (is-number), https://github.com/jonschlinkert/is-plain-object.git (is-plain-object), https://github.com/jonschlinkert/kind-of.git (kind-of). This software contains the following license and notice below:
+The following software may be included in this product: arr-diff, array-unique, extend-shallow, is-extglob, is-glob, is-number, is-primitive, micromatch, write. A copy of the source code may be downloaded from https://github.com/jonschlinkert/arr-diff.git (arr-diff), git://github.com/jonschlinkert/array-unique.git (array-unique), https://github.com/jonschlinkert/extend-shallow.git (extend-shallow), https://github.com/jonschlinkert/is-extglob.git (is-extglob), https://github.com/jonschlinkert/is-glob.git (is-glob), https://github.com/jonschlinkert/is-number.git (is-number), git://github.com/jonschlinkert/is-primitive.git (is-primitive), https://github.com/jonschlinkert/micromatch.git (micromatch), https://github.com/jonschlinkert/write.git (write). This software contains the following license and notice below:
+
+The MIT License (MIT)
+
+Copyright (c) 2014-2015, Jon Schlinkert.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: arr-flatten, is-glob, is-number, is-plain-object, kind-of. A copy of the source code may be downloaded from https://github.com/jonschlinkert/arr-flatten.git (arr-flatten), https://github.com/micromatch/is-glob.git (is-glob), https://github.com/jonschlinkert/is-number.git (is-number), https://github.com/jonschlinkert/is-plain-object.git (is-plain-object), https://github.com/jonschlinkert/kind-of.git (kind-of). This software contains the following license and notice below:
 
 The MIT License (MIT)
 
@@ -960,7 +958,7 @@ The following software may be included in this product: auto-changelog. A copy o
 
 The MIT License
 
-Copyright (c) 2017 Pete Cook http://cookpete.com
+Copyright (c) 2017 Pete Cook https://cookpete.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1271,7 +1269,7 @@ SOFTWARE.
 
 -----
 
-The following software may be included in this product: braces, fill-range, micromatch. A copy of the source code may be downloaded from https://github.com/micromatch/braces.git (braces), https://github.com/jonschlinkert/fill-range.git (fill-range), https://github.com/micromatch/micromatch.git (micromatch). This software contains the following license and notice below:
+The following software may be included in this product: braces, fill-range, micromatch, normalize-path. A copy of the source code may be downloaded from https://github.com/micromatch/braces.git (braces), https://github.com/jonschlinkert/fill-range.git (fill-range), https://github.com/micromatch/micromatch.git (micromatch), https://github.com/jonschlinkert/normalize-path.git (normalize-path). This software contains the following license and notice below:
 
 The MIT License (MIT)
 
@@ -1919,6 +1917,30 @@ The following software may be included in this product: copy-descriptor, expand-
 The MIT License (MIT)
 
 Copyright (c) 2015-2016, Jon Schlinkert
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: core-js. A copy of the source code may be downloaded from https://github.com/zloirock/core-js.git. This software contains the following license and notice below:
+
+Copyright (c) 2014-2019 Denis Pushkarev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -3708,6 +3730,33 @@ the licensed code:
 
 -----
 
+The following software may be included in this product: fsevents. A copy of the source code may be downloaded from https://github.com/strongloop/fsevents.git. This software contains the following license and notice below:
+
+MIT License
+-----------
+
+Copyright (C) 2010-2014 Philipp Dunkel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
 The following software may be included in this product: function-bind. A copy of the source code may be downloaded from git://github.com/Raynos/function-bind.git. This software contains the following license and notice below:
 
 Copyright (c) 2013 Raynos.
@@ -4309,11 +4358,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -----
 
-The following software may be included in this product: js-tokens, source-map-resolve. A copy of the source code may be downloaded from https://github.com/lydell/js-tokens.git (js-tokens), https://github.com/lydell/source-map-resolve.git (source-map-resolve). This software contains the following license and notice below:
+The following software may be included in this product: js-tokens. A copy of the source code may be downloaded from https://github.com/lydell/js-tokens.git. This software contains the following license and notice below:
 
 The MIT License (MIT)
 
-Copyright (c) 2014, 2015, 2016, 2017 Simon Lydell
+Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -4335,11 +4384,11 @@ THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: js-tokens. A copy of the source code may be downloaded from https://github.com/lydell/js-tokens.git. This software contains the following license and notice below:
+The following software may be included in this product: js-tokens, source-map-resolve. A copy of the source code may be downloaded from https://github.com/lydell/js-tokens.git (js-tokens), https://github.com/lydell/source-map-resolve.git (source-map-resolve). This software contains the following license and notice below:
 
 The MIT License (MIT)
 
-Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
+Copyright (c) 2014, 2015, 2016, 2017 Simon Lydell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -4541,7 +4590,7 @@ The following software may be included in this product: koa. A copy of the sourc
 
 (The MIT License)
 
-Copyright (c) 2018 Koa contributors
+Copyright (c) 2019 Koa contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -4695,7 +4744,7 @@ terms above.
 
 -----
 
-The following software may be included in this product: lodash.debounce, lodash.sortby, lodash.uniqby. A copy of the source code may be downloaded from https://github.com/lodash/lodash.git (lodash.debounce), https://github.com/lodash/lodash.git (lodash.sortby), https://github.com/lodash/lodash.git (lodash.uniqby). This software contains the following license and notice below:
+The following software may be included in this product: lodash.sortby, lodash.uniqby. A copy of the source code may be downloaded from https://github.com/lodash/lodash.git (lodash.sortby), https://github.com/lodash/lodash.git (lodash.uniqby). This software contains the following license and notice below:
 
 Copyright jQuery Foundation and other contributors <https://jquery.org/>
 
@@ -5109,6 +5158,33 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: neo-async. A copy of the source code may be downloaded from git@github.com:suguru03/neo-async.git. This software contains the following license and notice below:
+
+MIT License
+
+Copyright (c) 2014-2018 Suguru Motegi
+Based on Async.js, Copyright Caolan McMahon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 -----
 
@@ -5665,30 +5741,6 @@ THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: postinstall-build. A copy of the source code may be downloaded from https://github.com/exogen/postinstall-build.git. This software contains the following license and notice below:
-
-Copyright 2015 Brian Beck
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
------
-
 The following software may be included in this product: preserve. A copy of the source code may be downloaded from git://github.com/jonschlinkert/preserve.git. This software contains the following license and notice below:
 
 The MIT License (MIT)
@@ -6000,6 +6052,32 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: regenerator-runtime. A copy of the source code may be downloaded from https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime. This software contains the following license and notice below:
+
+MIT License
+
+Copyright (c) 2014-present, Facebook, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 -----
 

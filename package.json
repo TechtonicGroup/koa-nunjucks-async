@@ -46,7 +46,7 @@
     "jest": "^23.6.0",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
-    "supertest": "^4.0.0"
+    "supertest": "^4.1.0"
   },
   "engines": {
     "node": ">= 8.2.0"
