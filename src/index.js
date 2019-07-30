@@ -117,22 +117,25 @@ const KoaNunjucks = (path, options = {}) => {
   let env = nunjucks.configure(path, options.opts);
   env.render = promisify(env.render);
   env.renderString = promisify(env.renderString);
-  addCustom(env, options);
-  return async (ctx, next) => {
-    ctx.render = async (view, context) => {
-      context = Object.assign({}, ctx.state, context);
-      view += options.ext;
-      const body = await env.render(view, context);
-      ctx.type = ctx.type || 'text/html';
-      ctx.body = body;
-      return;
-    };
-    ctx.renderString = async (string, context) => {
-      assert(typeof string === 'string', 'Invalid string');
-      context = Object.assign({}, ctx.state, context);
-      return await env.renderString(string, context);
-    };
-    await next();
+
+  return {
+    env: addCustom(env, options),
+    middleware: async (ctx, next) => {
+      ctx.render = async (view, context) => {
+        context = Object.assign({}, ctx.state, context);
+        view += options.ext;
+        const body = await env.render(view, context);
+        ctx.type = ctx.type || 'text/html';
+        ctx.body = body;
+        return;
+      };
+      ctx.renderString = async (string, context) => {
+        assert(typeof string === 'string', 'Invalid string');
+        context = Object.assign({}, ctx.state, context);
+        return await env.renderString(string, context);
+      };
+      await next();
+    }
   };
 };
 
