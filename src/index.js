@@ -121,10 +121,11 @@ const KoaNunjucks = (path, options = {}) => {
   return {
     env: addCustom(env, options),
     middleware: async (ctx, next) => {
-      ctx.render = async (view, context) => {
+      ctx.render = async (view, context, status = 200) => {
         context = Object.assign({}, ctx.state, context);
         view += options.ext;
         const body = await env.render(view, context);
+        ctx.status = status;
         ctx.type = ctx.type || 'text/html';
         ctx.body = body;
         return;
